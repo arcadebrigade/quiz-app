@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body onload="init()"> 
+	<h2 id="question"></h2>
+	<h3 id="status"></h3>
+	<button id="answerOne" onclick="checkQuestion(1)" data-answernum=“1”></button>
+	<button id="answerTwo" onclick="checkQuestion(2)" data-answernum=“2”></button>
+	<button id="answerThree" onclick="checkQuestion(3)" data-answernum=“3”></button>
+	<button id="answerFour" onclick="checkQuestion(4)" data-answernum=“4”></button>
+	<button id="restartQuiz" onclick="startQuiz()" class="RestartQuiz">Restart</button>
+</body>
+<script src="JS/app.js"></script>
+</html>
